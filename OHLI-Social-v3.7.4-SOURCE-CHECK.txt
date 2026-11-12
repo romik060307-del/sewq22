@@ -1,0 +1,43 @@
+PASS  Android client uses Netlify origin
+PASS  MainActivity loads the site in WebView
+PASS  Local HTML is served from APK assets
+PASS  Local CSS and JavaScript are packaged
+PASS  Legacy server service is not declared in client manifest
+PASS  WebView has DOM storage and JavaScript
+PASS  Offline session cache and restoration exist
+PASS  Offline startup restores cache without waiting for API timeout
+PASS  Offline text outbox persists per account
+PASS  Offline queue has reconnect retry and client ID
+PASS  Native notification channels have three tones
+PASS  Native inline reply receiver is declared
+PASS  Inline reply PendingIntent remains mutable on Android 8–11
+PASS  Native reply keeps same idempotency key when retried
+PASS  Native notification reply uses Netlify API
+PASS  Camera, microphone and location permissions declared
+PASS  WebView grants only supported camera and microphone resources
+PASS  Notification and media permissions declared
+PASS  Notifications can open Android channel settings
+PASS  WebView suppresses duplicate notifications when native background sync is active
+PASS  App icon and notification icon are packaged
+PASS  Minimum Android version matches native WebView features
+PASS  New unique client package avoids old server signature conflict
+PASS  Version is OHLI client 3.7.4
+PASS  Android foreground sync service is packaged and declared
+PASS  Background sync polls messages and call signals
+PASS  Native incoming call notifications can reopen the call screen
+PASS  Background sync also polls social/activity notifications
+PASS  Background sync records HTTP/API diagnostics
+PASS  Native diagnostic screen reports WebView provider and API status
+PASS  Native notification test action is available
+PASS  Media compatibility wrapper supports legacy getUserMedia
+PASS  LIVE participant uses media compatibility wrapper
+PASS  Android audio focus is switched for calls and LIVE
+PASS  Long-press context menu is suppressed for media
+PASS  WebView renderer crash recovery exists
+PASS  GitHub Actions builds and uploads matching 3.7.4 artifact
+PASS  Backend source has retry idempotency support
+PASS  Netlify API proxy is explicitly not fabricated
+PASS  All inline JavaScript blocks parse
+PASS  Social UI JavaScript parses
+
+41/41 pemeriksaan source lulus.
